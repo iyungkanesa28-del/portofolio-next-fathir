@@ -4,8 +4,8 @@ import SkillCard from "@/components/SkillCard";
 const skills = [
   { nama: "HTML", level: "Menengah" },
   { nama: "CSS", level: "Menengah" },
-  { nama: "Git dan GitHub", level: "Dasar" },
-  { nama: "Desain poster dengan Canva", level: "Mahir" },
+  { nama: "Git dan GitHub", level: "Menengah" },
+  { nama: "Desain poster dengan Canva", level: "Menengah" },
   { nama: "JavaScript", level: "Dasar" }
 ]
 
@@ -26,7 +26,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#eaf5ed] p-6 md:p-12 font-sans text-gray-800">
       <div className="max-w-4xl mx-auto space-y-6">
         <Hero
-          nama="Fathir Azzikri Putra Wibowo"
+          nama="Muhammad izzul Faizin"
           tagline="Siswa kelas X SMK, calon Junior Web Developer di Kelas Industri UBIG"
         />
 
@@ -40,21 +40,23 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <section className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
               <h2 className="text-xl font-bold text-gray-900 mb-3">Hobi</h2>
-              <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
-                <li>Bermain Gitar</li>
-                <li>Bermain Game</li>
-                <li>Membaca Komik</li>
-              </ul>
+              <ol className="list-decimal list-inside text-sm text-gray-600 space-y-1">
+                <li>Bermain game</li>
+                <li>Badminton</li>
+                <li>Menonton film</li>
+                <li>Mendengarkan musik</li>
+              </ol>
             </section>
 
             <section className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
               <h2 className="text-xl font-bold text-gray-900 mb-2">Cita-cita</h2>
-              <p className="text-sm text-gray-600 mb-3">
-                Menjadi <strong className="font-semibold text-gray-800">Youtuber atau Vtuber</strong>. Langkah yang saya rencanakan:
-              </p>
-              <ol className="list-decinal list-inside text-sm text-gray-600 space-y-1">
-                <li>Melatih public speaking</li>
-                <li>Mencoba untuk konsisten upload di YouTube</li>
+              <ol className="list-decimal list-inside text-sm text-gray-600 space-y-1">
+                <li>Menuntaskan pendidikan SMK</li>
+                <li>Berhasil membuat project game</li>
+                <li>Menjadi Game Developer</li>
+                <li>Menuntaskan Kelas Industri UBIG</li>
+                <li>Magang di perusahaan teknologi</li>
+                <li>Pergi ke Jepang</li>
               </ol>
             </section>
           </div>

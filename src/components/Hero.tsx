@@ -5,7 +5,7 @@ export default function Hero({ nama, tagline }) {
         <section className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row items-center gap-6">
             <div className="w-28 h-28 rounded-full overflow-hidden bg-gray-200 border-2 border-red-500 shrink-0 flex items-center justify-center">
                 <Image
-                    src="/my.jpg"
+                    src="/muhammad-izzul-faizin.jpg"
                     alt={nama}
                     width={128}
                     height={128}

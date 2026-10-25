@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fathir Azzikri Putra Wibowo | Portofolio",
-  description: "Portofolio Fathir Azzikri Putra Wibowo, siswa SMK calon Junior Web Develpoer di Kelas Industri UBIG",
+  title: "Muhammad izzul Faizin | Portofolio",
+  description: "Portofolio Muhammad izzul Faizin, siswa SMK calon Junior Web Develpoer di Kelas Industri UBIG",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
